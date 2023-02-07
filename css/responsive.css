@@ -1,0 +1,226 @@
+@media screen and (max-width: 768px) {
+  /*Start About section */
+  .border-box {
+    float: none;
+    width: 87%;
+    border: none;
+    border-radius: none;
+    position: none;
+    left: 0%;
+    margin-bottom: 30px;
+  }
+  .about-img img {
+    border: 0;
+    border-radius: 5px;
+  }
+  .about-content {
+    position: relative;
+    left: 0;
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 20px;
+  }
+  .about-profile ul li {
+    float: none;
+    width: 100%;
+  }
+
+  /* End About section */
+
+  /* Start servives section */
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+  }
+
+  .single-service {
+    float: none;
+
+    width: 100%;
+  }
+
+  /* End servives section */
+
+  /* Start Portfolio Section */
+  .portfolio-image {
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* End Portfolio Section */
+
+  /* Start fact Section */
+
+  .single-content {
+    float: none;
+    width: 100%;
+
+    margin-bottom: 20px;
+  }
+
+  /* End fact Section */
+
+  /*  Start Testimonial Section  */
+
+  .testimonial-content {
+    width: 100%;
+  }
+  .single-item {
+    background-color: #f1f1f1;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    /* float:left; */
+    transition: all 0.4s;
+  }
+
+  .item-img {
+    border-radius: 50%;
+    float: none;
+    margin: 12px auto;
+    overflow: hidden;
+    position: relative;
+    left: 10%;
+    width: 110px;
+    z-index: 999;
+  }
+  .item-img img {
+    width: 100%;
+  }
+  .item-content {
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  /* .single-item2 {
+     
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+     
+    } */
+
+  .item2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+
+  /*  End Testimonial Section  */
+
+  /*  Start Blog Section  */
+
+  .blog-single-item {
+    float: none;
+    width: 100%;
+  }
+
+  /*  End Blog Section  */
+  /* Start contact Section */
+
+  .form-group {
+    margin-bottom: 25px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .name-txt {
+    float: none;
+    width: 100%;
+    padding-right: 30px;
+  }
+  .email-txt {
+    float: none;
+    width: 100%;
+  }
+
+  /* End contact Section */
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  /* Start About section */
+  .border-box {
+    float: left;
+    width: 35%;
+    border: none;
+    border-radius: none;
+    position: none;
+    left: 8%;
+  }
+
+  .about-content {
+    position: absolute;
+    margin-top: 20px;
+    left: 44%;
+    float: right;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 40px;
+  }
+
+  .about-content p {
+    width: 70%;
+  }
+  /* End About section */
+
+  /* Start servives section */
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    width: 100%;
+  }
+
+  .single-service {
+    float: left;
+    width: 50%;
+  }
+
+  /* End servives section */
+
+  /* Start Portfolio Section */
+
+  .portfolio-image {
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+  }
+
+  /* End Portfolio Section */
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* About Section */
+  .about-content {
+    position: absolute;
+    margin-top: 20px;
+    left: 44%;
+    float: right;
+    width: 55%;
+    padding-right: 15px;
+    padding-left: 40px;
+  }
+  .border-box {
+    float: left;
+    width: 35%;
+    border: 8px solid #555555;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+  }
+}
